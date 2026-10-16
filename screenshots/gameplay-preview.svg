@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" role="img" aria-labelledby="title desc">
+<title id="title">WHAT DID I CATCH? game preview</title><desc id="desc">Illustrative game interface preview featuring a fishing boat, ocean, cast button, fish collection and a rare catch reveal.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#082e45"/><stop offset="1" stop-color="#020e18"/></linearGradient><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#114e78"/><stop offset="1" stop-color="#18a8bd"/></linearGradient><linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1596b2"/><stop offset="1" stop-color="#06294d"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff2a8"/><stop offset="1" stop-color="#ffac00"/></linearGradient><filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="13" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter></defs>
+<rect width="1440" height="1000" rx="34" fill="url(#bg)"/>
+<text x="68" y="64" fill="#a3fff0" font-family="Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="4">BEURA LABS · ORIGINAL ARCADE GAME</text>
+<text x="68" y="111" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="900">A little patience. An unreasonable ocean.</text>
+<text x="68" y="145" fill="#a9c9d8" font-family="Arial,sans-serif" font-size="17">Every cast is a mystery. Some mysteries are definitely not fish.</text>
+<!-- game viewport -->
+<g transform="translate(66 184)" filter="url(#shadow)">
+ <rect width="790" height="744" rx="30" fill="#051b2b" stroke="#2b6780" stroke-width="2"/>
+ <clipPath id="screen"><rect x="8" y="8" width="774" height="728" rx="24"/></clipPath>
+ <g clip-path="url(#screen)">
+  <rect x="8" y="8" width="774" height="320" fill="url(#sky)"/>
+  <circle cx="625" cy="110" r="65" fill="#fff4b4" opacity=".14"><animate attributeName="r" values="58;72;58" dur="6s" repeatCount="indefinite"/></circle><circle cx="625" cy="110" r="38" fill="#fff5c5"/>
+  <path d="M8 238q90-33 180 0t180 0t180 0t180 0t80 0v90H8Z" fill="#155e82" opacity=".78"/>
+  <path d="M8 279q90-27 180 0t180 0t180 0t180 0t80 0v65H8Z" fill="#08718b"/>
+  <rect x="8" y="318" width="774" height="418" fill="url(#water)"/>
+  <g opacity=".25" stroke="#d5fffb" stroke-width="2" fill="none"><path d="M30 365q60-14 120 0t120 0t120 0t120 0t120 0t120 0t60 0"><animate attributeName="d" values="M30 365q60-14 120 0t120 0t120 0t120 0t120 0t120 0t60 0;M30 365q60 15 120 0t120 0t120 0t120 0t120 0t120 0t60 0;M30 365q60-14 120 0t120 0t120 0t120 0t120 0t120 0t60 0" dur="5s" repeatCount="indefinite"/></path><path d="M20 492q70-20 140 0t140 0t140 0t140 0t140 0t60 0"><animateTransform attributeName="transform" type="translate" values="-30 0;20 0;-30 0" dur="7s" repeatCount="indefinite"/></path></g>
+  <!-- stars and bubbles -->
+  <g fill="#c2fff7" opacity=".75"><circle cx="120" cy="424" r="3"><animate attributeName="cy" values="430;395;430" dur="4s" repeatCount="indefinite"/></circle><circle cx="680" cy="525" r="4"><animate attributeName="cy" values="533;493;533" dur="4.7s" repeatCount="indefinite"/></circle><circle cx="560" cy="643" r="2.5"><animate attributeName="cy" values="645;615;645" dur="3s" repeatCount="indefinite"/></circle><circle cx="225" cy="554" r="3"><animate attributeName="cy" values="561;516;561" dur="5s" repeatCount="indefinite"/></circle></g>
+  <!-- boat -->
+  <g transform="translate(360 296)">
+   <ellipse cx="5" cy="33" rx="168" ry="14" fill="#031827" opacity=".35"/>
+   <path d="M-154 0H160L120 70Q0 106-120 70Z" fill="#db7136" stroke="#06243a" stroke-width="7"/>
+   <path d="M-145 11H149L126 47H-127Z" fill="#ffd995" stroke="#06243a" stroke-width="4"/>
+   <path d="M-30 -5V-160" stroke="#eaf6ff" stroke-width="8" stroke-linecap="round"/><path d="M-25 -152 65 -77 -25 -77Z" fill="#fff4cf" stroke="#06243a" stroke-width="4"/><path d="M-36 -152-114 -80-36 -80Z" fill="#f75a4c" stroke="#06243a" stroke-width="4"/>
+   <path d="M-24 -145Q75 -102 158 -31" fill="none" stroke="#fff2a8" stroke-width="3" stroke-dasharray="4 8"/>
+   <path d="M150 -24q10 8 16 0" fill="none" stroke="#fff2a8" stroke-width="4" stroke-linecap="round"><animate attributeName="d" values="M150 -24q10 8 16 0;M150 -24q10 -8 16 0;M150 -24q10 8 16 0" dur="1.5s" repeatCount="indefinite"/></path>
+  </g>
+  <path d="M517 330Q550 385 531 439" fill="none" stroke="#ffd995" stroke-width="3" stroke-dasharray="6 6"/>
+  <g transform="translate(529 449)"><ellipse rx="26" ry="9" fill="#d5fffb" opacity=".17"><animate attributeName="rx" values="18;44;18" dur="2.4s" repeatCount="indefinite"/></ellipse><path d="M-22 0Q-2-20 22 0Q-2 20-22 0Z" fill="#a3fff0" stroke="#fff" stroke-width="2"/><path d="M19 0l12-9v18z" fill="#36bdf0"/><circle cx="-12" cy="-3" r="3" fill="#06243a"/></g>
+  <g transform="translate(30 32)">
+   <rect width="198" height="46" rx="23" fill="#041b2b" fill-opacity=".78" stroke="#82d7ee" stroke-opacity=".3"/>
+   <text x="19" y="29" fill="#ffd23f" font-family="Arial,sans-serif" font-size="15" font-weight="800">🪙 1,240</text>
+   <rect x="210" width="300" height="46" rx="23" fill="#041b2b" fill-opacity=".78" stroke="#82d7ee" stroke-opacity=".3"/>
+   <text x="230" y="29" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700">🏞️ Starter Lake · 5 m</text>
+   <circle cx="548" cy="23" r="23" fill="url(#gold)" stroke="#06243a" stroke-width="3"/><text x="548" y="31" text-anchor="middle" font-size="24">🪱</text>
+   <circle cx="604" cy="23" r="23" fill="#164965" stroke="#06243a" stroke-width="3"/><text x="604" y="31" text-anchor="middle" font-size="21">🗺️</text>
+   <circle cx="660" cy="23" r="23" fill="#164965" stroke="#06243a" stroke-width="3"/><text x="660" y="31" text-anchor="middle" font-size="21">☰</text>
+  </g>
+  <text x="395" y="610" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="24" font-weight="900" stroke="#06243a" stroke-width="4" paint-order="stroke">SHHH… Something's nibbling.</text>
+  <g transform="translate(42 660)"><rect width="706" height="60" rx="30" fill="url(#gold)" stroke="#06243a" stroke-width="5"/><text x="353" y="39" text-anchor="middle" fill="#06243a" font-family="Arial,sans-serif" font-size="27" font-weight="900" letter-spacing="2">HOLD TO REEL</text><path d="M680 18l8 12-8 12" stroke="#06243a" stroke-width="4" fill="none" stroke-linecap="round"/></g>
+ </g>
+</g>
+<!-- catch reveal card -->
+<g transform="translate(900 184)" filter="url(#shadow)">
+ <rect width="474" height="744" rx="30" fill="#031522" stroke="#2b6780" stroke-width="2"/>
+ <rect x="12" y="12" width="450" height="720" rx="22" fill="#0a2639"/>
+ <circle cx="237" cy="240" r="154" fill="none" stroke="#36bdf0" stroke-opacity=".18" stroke-width="2" stroke-dasharray="4 13"><animateTransform attributeName="transform" type="rotate" from="0 237 240" to="360 237 240" dur="34s" repeatCount="indefinite"/></circle>
+ <circle cx="237" cy="240" r="112" fill="none" stroke="#a3fff0" stroke-opacity=".3" stroke-dasharray="18 10" stroke-width="2"><animateTransform attributeName="transform" type="rotate" from="360 237 240" to="0 237 240" dur="25s" repeatCount="indefinite"/></circle>
+ <text x="237" y="76" text-anchor="middle" fill="#a3fff0" font-family="Arial,sans-serif" font-size="13" font-weight="900" letter-spacing="3">CATCH REVEAL</text>
+ <text x="237" y="127" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="28" font-weight="900">WAIT… WHAT?</text>
+ <g transform="translate(237 236)" filter="url(#glow)"><path d="M-92 0q88-78 176 0Q0 76-92 0Z" fill="url(#gold)" stroke="#fff4bc" stroke-width="5"/><path d="M84 0l47-34v68z" fill="#ff8d36" stroke="#fff4bc" stroke-width="4"/><circle cx="-49" cy="-11" r="11" fill="#06243a"/><circle cx="-45" cy="-15" r="4" fill="#fff"/><path d="M-30 23q28 18 55 0" fill="none" stroke="#8f3500" stroke-width="5" stroke-linecap="round"/></g>
+ <rect x="48" y="368" width="378" height="42" rx="21" fill="#ffd23f" stroke="#06243a" stroke-width="3"/><text x="237" y="396" text-anchor="middle" fill="#06243a" font-family="Arial,sans-serif" font-size="15" font-weight="900" letter-spacing="2">LEGENDARY</text>
+ <text x="237" y="463" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="32" font-weight="900">Giant Rubber Duck</text>
+ <text x="237" y="501" text-anchor="middle" fill="#b3cfdd" font-family="Arial,sans-serif" font-size="17">Bigger than the boat. It judges you.</text>
+ <g transform="translate(46 542)"><rect width="182" height="72" rx="18" fill="#123b52"/><text x="20" y="29" fill="#8ebaca" font-family="Arial,sans-serif" font-size="12" font-weight="800">WEIGHT</text><text x="20" y="55" fill="#fff" font-family="Arial,sans-serif" font-size="22" font-weight="900">750 kg</text><rect x="198" width="184" height="72" rx="18" fill="#123b52"/><text x="218" y="29" fill="#8ebaca" font-family="Arial,sans-serif" font-size="12" font-weight="800">COINS EARNED</text><text x="218" y="55" fill="#ffd23f" font-family="Arial,sans-serif" font-size="22" font-weight="900">+800</text></g>
+ <rect x="46" y="640" width="382" height="62" rx="20" fill="url(#gold)" stroke="#06243a" stroke-width="4"/><text x="237" y="679" text-anchor="middle" fill="#06243a" font-family="Arial,sans-serif" font-size="23" font-weight="900" letter-spacing="1">ONE MORE CAST 🎣</text>
+</g>
+<text x="70" y="970" fill="#7ba7b9" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">ILLUSTRATIVE INTERFACE PREVIEW · DESIGNED FOR MOBILE PLAY</text>
+<text x="1370" y="970" text-anchor="end" fill="#7ba7b9" font-family="Arial,sans-serif" font-size="13">© BEURA LABS · ALL RIGHTS RESERVED</text>
+</svg>
